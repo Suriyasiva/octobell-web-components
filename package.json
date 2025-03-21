@@ -17,11 +17,12 @@
     }
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Suriyasiva/octobell-web-components.git" 
+    "url": "git+https://github.com/Suriyasiva/octobell-web-components.git"
   },
   "engines": {
     "node": "22.14.0"
