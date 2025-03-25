@@ -1,7 +1,6 @@
 import { Box, Card, CardBody, Heading, Image } from '@chakra-ui/react';
 import { ProfileCard } from '../ProfileCard';
-// import GraduationIcon from '../assets/icons/graduation.svg';
-// import GraduationIcon from '../../public/assets/icons/graduation.svg';
+import GraduationIcon from '../../../assets/icons/graduation.svg';
 
 interface IStaffs {
   staffName: string;
@@ -19,7 +18,7 @@ function StaffCard(props: IProps) {
       <CardBody>
         <Box display='flex' gap={2} alignItems='center'>
           <Image
-            src={'public/assets/icons/graduation.svg'}
+            src={GraduationIcon}
             alt='Graduation Icon'
             boxSize={6}
             objectFit='contain'

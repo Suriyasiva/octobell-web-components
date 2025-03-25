@@ -8,6 +8,8 @@ import {
   Text,
 } from '@chakra-ui/react';
 import { FiDownload } from 'react-icons/fi';
+import PptIcons from '../../../assets/icons/ppt-icon.svg';
+import Xlscons from '../../../assets/icons/xls-icon.svg';
 
 export interface IFile {
   fileName: string;
@@ -31,10 +33,10 @@ export interface IProps {
 export function FilesMediaCard(props: IProps) {
   function renderFileIcon() {
     if (props.fileInfo.file.fileType === 'PPT') {
-      return <Image src={'/public/assets/icons/ppt-icon.svg'} />;
+      return <Image src={PptIcons} />;
     }
     if (props.fileInfo.file.fileType === 'XLS') {
-      return <Image src={'/public/assets/icons/xls-icon.svg'} />;
+      return <Image src={Xlscons} />;
     }
     return <></>;
   }

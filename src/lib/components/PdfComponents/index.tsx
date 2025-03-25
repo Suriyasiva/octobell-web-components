@@ -1,7 +1,6 @@
 import { Card, Box, Text, CardBody, Image } from '@chakra-ui/react';
 import { LuDownload } from 'react-icons/lu';
-// import PdfIcon from '../assets/icons/pdf.svg';
-// import PdfIcon from '../../public/assets/icons/pdf.svg';
+import PdfIcon from '../../../assets/icons/pdf.svg';
 
 interface IProps {
   fileName: string;
@@ -32,8 +31,8 @@ export function PdfComponent(props: IProps) {
           <Image
             src={
               props.fileType === 'PDF'
-                ? 'public/assets/icons/pdf.svg'
-                : 'public/assets/icons/pdf.svg'
+                ? PdfIcon
+                : PdfIcon
             }
           />
           <Box>

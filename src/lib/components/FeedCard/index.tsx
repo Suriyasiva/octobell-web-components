@@ -1,7 +1,6 @@
 import { Box, Card, Flex, Image } from '@chakra-ui/react';
 import { ProfileCard } from '../ProfileCard';
-// import PinIcon from '../assets/icons/pin.png';
-// import PinIcon from 'public/assets/icons/pin.png';
+import PinIcon from '../../../assets/icons/pin.png';
 import { PdfComponent } from '../PdfComponents';
 
 export interface IFile {
@@ -67,7 +66,7 @@ export const FeedCard = (props: IProps) => {
             subjectName={props.subjectName}
           />
           {props.isPinned ? (
-            <Image boxSize={'5'} src={'/public/assets/icons/pin.png'} />
+            <Image boxSize={'5'} src={PinIcon} />
           ) : (
             <></>
           )}
