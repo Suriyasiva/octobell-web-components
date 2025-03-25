@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <p>octobell web components v2</p>
+      <p>octobell web components v4</p>
     </>
   );
 }
