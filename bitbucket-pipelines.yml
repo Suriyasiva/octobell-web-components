@@ -12,6 +12,6 @@ pipelines:
 
 
             - git remote remove origin
-            - git remote add origin https://Suriyasiva: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@github.com/Suriyasiva/octobell-web-components.git
+            - git remote add origin https://Suriyasiva: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@github.com/Suriyasiva/octobell-web-components.git
             - git pull origin master --allow-unrelated-histories --no-rebase
             - git push origin master
