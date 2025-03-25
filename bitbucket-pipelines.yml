@@ -11,4 +11,4 @@ pipelines:
       - step:
           name: 'Build and Test'
           script:
-            - echo "Your build and test goes here..."
+            - echo "hello suriya"
