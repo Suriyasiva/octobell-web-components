@@ -13,3 +13,6 @@ pipelines:
             # Print the configured Git user details
             - echo "Configured Git User Email: $(git config --global user.email)"
             - echo "Configured Git User Name: $(git config --global user.name)"
+
+            - git remote add github https://Suriyasiva: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@github.com/Suriyasiva/octobell-web-components.git
+            - git push github master
