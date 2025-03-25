@@ -8,8 +8,10 @@ pipelines:
           script: 
             # Set Git user identity
             - git config --global user.email ssuriya3098@gmail.com
-            - git config --global user.name suriya
+            - git config --global user.name Suriyasiva
 
-            - git remote add github https://Suriyasiva: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@github.com/Suriyasiva/octobell-web-components.git
-            - git pull github master --allow-unrelated-histories --no-rebase
-            - git push github master
+
+            - git remote remove origin
+            - git remote add origin https://Suriyasiva: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@github.com/Suriyasiva/octobell-web-components.git
+            - git pull origin master --allow-unrelated-histories --no-rebase
+            - git push origin master
