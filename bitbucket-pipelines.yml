@@ -11,5 +11,5 @@ pipelines:
             - git config --global user.name "${GITHUB_USERNAME}"
 
             - git remote add github https://Suriyasiva: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@github.com/Suriyasiva/octobell-web-components.git
-            - git pull github master --ff-only
-            - git push github master -f
+            - git pull github master --no-rebase
+            - git push github master
