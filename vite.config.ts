@@ -18,7 +18,6 @@ export default defineConfig(() => {
 
       sourcemap: true,
       emptyOutDir: true,
-      copyPublicDir: false,
       lib: {
         entry: resolve(__dirname, 'src/lib/index.ts'),
         name: 'octobell-web-components',
