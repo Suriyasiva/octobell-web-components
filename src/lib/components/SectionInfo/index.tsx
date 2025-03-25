@@ -1,6 +1,5 @@
 import { Flex, Box, Image, Text, Avatar, AvatarGroup } from '@chakra-ui/react';
 import { LuUsersRound } from 'react-icons/lu';
-import BookIcon from '../../../assets/icons/book.png';
 
 interface IAvatarProps {
   studentName: string;
@@ -26,7 +25,7 @@ export function SectionInfo(props: IProps) {
     >
       <Flex justify='space-between' align='center'>
         <Flex alignItems='start' gap={2}>
-          <Image src={BookIcon} alt='sun-icon' />
+          <Image src={'assets/icons/book.png'} alt='sun-icon' />
           <Box>
             <Text
               fontSize={{ base: 'lg', md: '4xl' }}

@@ -10,7 +10,6 @@ import {
   Text,
   Image,
 } from '@chakra-ui/react';
-import SortIcon from '../../../assets/icons/sort.svg';
 
 interface IProps {
   classRoomFeed: React.ElementType;
@@ -99,7 +98,7 @@ export function FeedTabs(props: IProps) {
       <Flex my={2} alignItems='center' gap={2}>
         <Divider orientation='horizontal' flex={1} />
         <Text style={{ whiteSpace: 'nowrap' }}>Recent Post</Text>
-        <Image src={SortIcon} />
+        <Image src={'assets/icons/sort.svg'} />
       </Flex>
 
       <TabPanels>
